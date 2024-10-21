@@ -1,9 +1,5 @@
-import {
-  RequestHandler,
-  v,
-  type Request,
-  type Response,
-} from "@warlock.js/core";
+import type { RequestHandler } from "@warlock.js/core";
+import { v, type Request, type Response } from "@warlock.js/core";
 import { User } from "app/users/models/user";
 
 export const loginRequest: RequestHandler = async (
