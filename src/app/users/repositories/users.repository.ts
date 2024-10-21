@@ -24,6 +24,4 @@ export class UsersRepository extends RepositoryManager<User> {
   });
 }
 
-const usersRepository = new UsersRepository();
-
-export default usersRepository;
+export const usersRepository = new UsersRepository();
