@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "start": "warlock dev",
+        "dev": "warlock dev",
         "build": "tsc && warlock build",
         "prod": "warlock start",
         "postman": "warlock postman",
